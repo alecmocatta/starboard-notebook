@@ -1,6 +1,6 @@
 $text-strong: #222;
-$weight-semibold: 600;
-$weight-bold: 700;
+$weight-semibold: 480;
+$weight-bold: 550;
 $border: #666;
 $background: #fff;
 
@@ -27,8 +27,10 @@ body {
   color: var(--foreground-color);
   font-family: var(--font-sans);
   font-size: var(--content-font-size);
-  letter-spacing: -0.01em;
+  letter-spacing: 0.0111111em;
   word-wrap: break-word;
+  font-weight: 410;
+  font-variation-settings: "wght" 410;
 }
 
 // Block
@@ -150,6 +152,8 @@ h5,
 h6 {
   color: $content-heading-color;
   font-weight: $content-heading-weight;
+  font-variation-settings: "wght" $content-heading-weight;
+  letter-spacing: -0.005em;
   line-height: $content-heading-line-height;
   margin-bottom: var(--font-size);
 
@@ -169,22 +173,22 @@ h2 {
 
 h1 {
   font-size: var(--h1-size);
-  letter-spacing: -0.05em;
+  // letter-spacing: -0.05em;
 }
 
 h2 {
   font-size: var(--h2-size);
-  letter-spacing: -0.03em;
+  // letter-spacing: -0.03em;
 }
 
 h3 {
   font-size: var(--h3-size);
-  letter-spacing: -0.02em;
+  // letter-spacing: -0.02em;
 }
 
 h4 {
   font-size: var(--h4-size);
-  letter-spacing: -0.012em;
+  // letter-spacing: -0.012em;
 }
 
 h5 {

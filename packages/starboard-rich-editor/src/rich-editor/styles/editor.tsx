@@ -171,6 +171,7 @@ export const StyledEditor = styled("div")<{
     }
   }
 
+  /*
   h1:not(.placeholder):before {
     content: "H1";
   }
@@ -189,6 +190,7 @@ export const StyledEditor = styled("div")<{
   h6:not(.placeholder):before {
     content: "H6";
   }
+  */
 
   .with-emoji {
     margin-${(props) => (props.rtl ? "right" : "left")}: -1em;

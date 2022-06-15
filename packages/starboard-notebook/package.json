@@ -19,10 +19,11 @@
     "literate"
   ],
   "scripts": {
-    "build": "rimraf ./dist && webpack --mode=production && tsc",
+    "clean": "rimraf dist",
+    "build": "webpack --mode=none --env minify=disabled",
     "build:tsc": "tsc",
-    "build:nominify": "rimraf ./dist && webpack --mode=production --env minify=disabled",
-    "build:stats": "rimraf ./dist && mkdir dist && webpack --mode=production --stats normal",
+    "build:nominify": "webpack --mode=production --env minify=disabled",
+    "build:stats": "mkdir dist && webpack --mode=production --stats normal",
     "start": "webpack-dev-server --mode=development",
     "test": "jest",
     "nbtest": "starlit nbtest test/notebooks --starboard_artifacts ./dist/ --timeout 90",

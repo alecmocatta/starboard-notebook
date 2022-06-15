@@ -11,6 +11,7 @@ the focus state of the cell */
   align-items: center;
   min-width: 2px;
   background-color: var(--gutter-background-color);
+  display: none;
 }
 
 .cell-gutter-left-above {

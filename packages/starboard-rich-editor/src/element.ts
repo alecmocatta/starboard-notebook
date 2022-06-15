@@ -55,6 +55,8 @@ export class StarboardRichEditorElement extends LitElement {
 
     editorTheme.fontFamily = "var(--font-sans)";
     editorTheme.fontFamilyMono = "var(--font-mono)";
+    editorTheme.background = "transparent";
+    editorTheme.codeBackground = "transparent";
 
     const math = new Math();
     const mathDisplay = new MathDisplay();
