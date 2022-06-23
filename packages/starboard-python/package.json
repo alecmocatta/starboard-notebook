@@ -53,5 +53,8 @@
     "starlit": "^0.1.17",
     "typescript": "^4.3.5"
   },
+  "overrides": {
+    "go-npm": "git+https://github.com/alecmocatta/go-npm.git"
+  },
   "gitHead": "beab3bbce7174c9ca32cabd80e00333683b3c97b"
 }

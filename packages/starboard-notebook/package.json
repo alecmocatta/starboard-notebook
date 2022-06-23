@@ -141,5 +141,8 @@
     "starboard-python": "^0.15.6",
     "starboard-rich-editor": "^0.15.2"
   },
+  "overrides": {
+    "go-npm": "git+https://github.com/alecmocatta/go-npm.git"
+  },
   "gitHead": "beab3bbce7174c9ca32cabd80e00333683b3c97b"
 }

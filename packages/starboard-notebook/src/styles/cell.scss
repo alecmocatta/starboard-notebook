@@ -11,7 +11,7 @@
       calc(min(var(--cell-base-width), 100% - var(--cell-margin-left) - var(--cell-margin-right)))
     )
     [content-end margin-right-start] var(--cell-margin-right) [margin-right-end] auto [full-width-end];
-  grid-template-rows: 20px auto auto;
+  grid-template-rows: 0 auto auto;
   grid-template-areas:
     "gutter-left-above margin-left-above above margin-right-above gutter-right-above"
     "gutter-left-top margin-left-top top margin-right-top gutter-right-top"
